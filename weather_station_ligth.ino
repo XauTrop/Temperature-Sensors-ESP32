@@ -12,8 +12,8 @@
 U8G2_SH1106_128X64_NONAME_1_HW_I2C u8g2(U8G2_R0,21,22,U8X8_PIN_NONE);
 Adafruit_BME280 bme;
 /*Put your SSID & Password*/
-const char ssid[] = "Xaragall";
-const char password[] = "a78k7bkl9nj0al11u";
+const char ssid[] = "YOUR_NETWORK";
+const char password[] = "YOUR_PASS";
 int status = WL_IDLE_STATUS;
 const char* serverExtTemp = "http://192.168.1.46/things/Exterior/properties/temperature";
 const char* serverExtHum = "http://192.168.1.46/things/Exterior/properties/humidity";
